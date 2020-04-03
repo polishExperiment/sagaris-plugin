@@ -57,7 +57,7 @@ function sagarisTimeToGoHome() {
     if (sagarisPlugin.length) {
         sagarisPlugin.text(goHomeText)
     } else {
-        timer.parent().append("<span id=\"sagarisPlugin\" class=\"kaka\">" + goHomeText + "</span>")
+        timer.parent().append("<span id=\"sagarisPlugin\">" + goHomeText + "</span>")
     }
 }
 
